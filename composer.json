@@ -6,7 +6,12 @@
     "type": "project",
     "require": {
         "php": ">=5.6.4",
+<<<<<<< HEAD
         "laravel/framework": "5.3.*"
+=======
+        "laravel/framework": "5.3.*",
+        "laracasts/flash": "^2.0"
+>>>>>>> 1f07036a857f5e6f8719afd517355e7bef1e781e
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

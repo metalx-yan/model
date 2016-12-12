@@ -12,7 +12,11 @@ return [
     | any other location as required by the application or its packages.
     */
 
+<<<<<<< HEAD
     'name' => 'Laravel',
+=======
+    'name' => 'Cyber Click Id',
+>>>>>>> 1f07036a857f5e6f8719afd517355e7bef1e781e
 
     /*
     |--------------------------------------------------------------------------
@@ -64,7 +68,11 @@ return [
     |
     */
 
+<<<<<<< HEAD
     'timezone' => 'UTC',
+=======
+    'timezone' => 'Asia/Jakarta',
+>>>>>>> 1f07036a857f5e6f8719afd517355e7bef1e781e
 
     /*
     |--------------------------------------------------------------------------
@@ -166,7 +174,11 @@ return [
         /*
          * Package Service Providers...
          */
+<<<<<<< HEAD
 
+=======
+        Laracasts\Flash\FlashServiceProvider::class,
+>>>>>>> 1f07036a857f5e6f8719afd517355e7bef1e781e
         //
 
         /*

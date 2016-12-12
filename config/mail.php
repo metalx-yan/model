@@ -56,8 +56,23 @@ return [
     */
 
     'from' => [
+<<<<<<< HEAD
         'address' => env('MAIL_FROM_ADDRESS', 'hello@example.com'),
         'name' => env('MAIL_FROM_NAME', 'Example'),
+=======
+<<<<<<< c64f2eb84f3484b8bb20b3acbf08110591d27f2a
+<<<<<<< HEAD
+        'address' => env('MAIL_FROM_ADDRESS', 'hello@example.com'),
+        'name' => env('MAIL_FROM_NAME', 'Example'),
+=======
+        'address' => 'hello@example.com',
+        'name' => 'Example',
+>>>>>>> a8c56e09facff8c567d2a575a6751f6e750a52ea
+=======
+        'address' => env('MAIL_ADDRESS'),
+        'name' => env('MAIL_NAME'),
+>>>>>>> "Registrasi dua tahap, view seadanya"
+>>>>>>> 1f07036a857f5e6f8719afd517355e7bef1e781e
     ],
 
     /*

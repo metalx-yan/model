@@ -3,6 +3,10 @@
 namespace App\Http\Controllers\Auth;
 
 use App\User;
+<<<<<<< HEAD
+=======
+use App\Registrasi;
+>>>>>>> 1f07036a857f5e6f8719afd517355e7bef1e781e
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
@@ -23,11 +27,23 @@ class RegisterController extends Controller
     use RegistersUsers;
 
     /**
+<<<<<<< HEAD
      * Where to redirect users after registration.
      *
      * @var string
      */
     protected $redirectTo = '/home';
+=======
+<<<<<<< HEAD
+     * Where to redirect users after registration.
+=======
+     * Where to redirect users after login / registration.
+>>>>>>> a8c56e09facff8c567d2a575a6751f6e750a52ea
+     *
+     * @var string
+     */
+    protected $redirectTo = '/dashboard';
+>>>>>>> 1f07036a857f5e6f8719afd517355e7bef1e781e
 
     /**
      * Create a new controller instance.
@@ -49,7 +65,10 @@ class RegisterController extends Controller
     {
         return Validator::make($data, [
             'name' => 'required|max:255',
+<<<<<<< HEAD
             'email' => 'required|email|max:255|unique:users',
+=======
+>>>>>>> 1f07036a857f5e6f8719afd517355e7bef1e781e
             'password' => 'required|min:6|confirmed',
         ]);
     }
@@ -62,10 +81,22 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
+<<<<<<< HEAD
         return User::create([
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => bcrypt($data['password']),
         ]);
+=======
+
+        $token = Registrasi::where('token', '=', $data['token'])->first();
+        $email = $token->email;
+        $token->delete();
+        return User::create([
+                'name' => $data['name'],
+                'email' => $email,
+                'password' => bcrypt($data['password']),
+            ]);
+>>>>>>> 1f07036a857f5e6f8719afd517355e7bef1e781e
     }
 }

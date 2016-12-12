@@ -1,0 +1,1 @@
+link anda : <a href="{{ $link }}">Klik disini</a>
