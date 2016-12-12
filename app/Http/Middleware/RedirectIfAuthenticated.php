@@ -19,10 +19,14 @@ class RedirectIfAuthenticated
     {
         if (Auth::guard($guard)->check()) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             return redirect('/home');
 =======
             return redirect('/dashboard');
 >>>>>>> 1f07036a857f5e6f8719afd517355e7bef1e781e
+=======
+            return redirect('/home');
+>>>>>>> bd64c36f1600dca200cbffa95d664555d61f4ab7
         }
 
         return $next($request);

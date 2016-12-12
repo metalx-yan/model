@@ -13,10 +13,14 @@ return [
     */
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     'name' => 'Laravel',
 =======
     'name' => 'Cyber Click Id',
 >>>>>>> 1f07036a857f5e6f8719afd517355e7bef1e781e
+=======
+    'name' => 'Aldian',
+>>>>>>> bd64c36f1600dca200cbffa95d664555d61f4ab7
 
     /*
     |--------------------------------------------------------------------------
@@ -69,10 +73,14 @@ return [
     */
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     'timezone' => 'UTC',
 =======
     'timezone' => 'Asia/Jakarta',
 >>>>>>> 1f07036a857f5e6f8719afd517355e7bef1e781e
+=======
+    'timezone' => 'UTC',
+>>>>>>> bd64c36f1600dca200cbffa95d664555d61f4ab7
 
     /*
     |--------------------------------------------------------------------------
@@ -170,15 +178,24 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+<<<<<<< HEAD
+=======
+        Collective\Html\HtmlServiceProvider::class,
+        Laratrust\LaratrustServiceProvider::class,
+>>>>>>> bd64c36f1600dca200cbffa95d664555d61f4ab7
 
         /*
          * Package Service Providers...
          */
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
         Laracasts\Flash\FlashServiceProvider::class,
 >>>>>>> 1f07036a857f5e6f8719afd517355e7bef1e781e
+=======
+
+>>>>>>> bd64c36f1600dca200cbffa95d664555d61f4ab7
         //
 
         /*
@@ -237,6 +254,12 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+<<<<<<< HEAD
+=======
+        'Form' => Collective\Html\FormFacade::class,
+        'Html' => Collective\Html\HtmlFacade::class,
+        'Laratrust' => Laratrust\LaratrustFacade::class,
+>>>>>>> bd64c36f1600dca200cbffa95d664555d61f4ab7
 
     ],
 

@@ -57,10 +57,13 @@ class RouteServiceProvider extends ServiceProvider
         ], function ($router) {
             require base_path('routes/web.php');
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             require base_path('routes/auth.php');
             require base_path('routes/registrasi.php');
 >>>>>>> 1f07036a857f5e6f8719afd517355e7bef1e781e
+=======
+>>>>>>> bd64c36f1600dca200cbffa95d664555d61f4ab7
         });
     }
 

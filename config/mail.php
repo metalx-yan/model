@@ -57,6 +57,7 @@ return [
 
     'from' => [
 <<<<<<< HEAD
+<<<<<<< HEAD
         'address' => env('MAIL_FROM_ADDRESS', 'hello@example.com'),
         'name' => env('MAIL_FROM_NAME', 'Example'),
 =======
@@ -73,6 +74,10 @@ return [
         'name' => env('MAIL_NAME'),
 >>>>>>> "Registrasi dua tahap, view seadanya"
 >>>>>>> 1f07036a857f5e6f8719afd517355e7bef1e781e
+=======
+        'address' => env('MAIL_FROM_ADDRESS', 'aldianfirmansyah8@gmail.com'),
+        'name' => env('MAIL_FROM_NAME', 'Aldian'),
+>>>>>>> bd64c36f1600dca200cbffa95d664555d61f4ab7
     ],
 
     /*

@@ -1,7 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 1f07036a857f5e6f8719afd517355e7bef1e781e
+=======
+>>>>>>> bd64c36f1600dca200cbffa95d664555d61f4ab7
 <p align="center"><a href="https://laravel.com" target="_blank"><img width="150"src="https://laravel.com/laravel.png"></a></p>
 
 <p align="center">
@@ -31,6 +34,7 @@ Laravel has the most extensive and thorough documentation and video tutorial lib
 
 If you're not in the mood to read, [Laracasts](https://laracasts.com) contains over 900 video tutorials on a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 # Laravel PHP Framework
@@ -50,6 +54,8 @@ Laravel is accessible, yet powerful, providing tools needed for large, robust ap
 Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
 >>>>>>> a8c56e09facff8c567d2a575a6751f6e750a52ea
 >>>>>>> 1f07036a857f5e6f8719afd517355e7bef1e781e
+=======
+>>>>>>> bd64c36f1600dca200cbffa95d664555d61f4ab7
 
 ## Contributing
 

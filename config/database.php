@@ -55,6 +55,7 @@ return [
         'mysql' => [
             'driver' => 'mysql',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'host' => env('DB_HOST', '127.0.0.1'),
 =======
 <<<<<<< HEAD
@@ -63,6 +64,9 @@ return [
             'host' => env('DB_HOST', 'localhost'),
 >>>>>>> a8c56e09facff8c567d2a575a6751f6e750a52ea
 >>>>>>> 1f07036a857f5e6f8719afd517355e7bef1e781e
+=======
+            'host' => env('DB_HOST', '127.0.0.1'),
+>>>>>>> bd64c36f1600dca200cbffa95d664555d61f4ab7
             'port' => env('DB_PORT', '3306'),
             'database' => env('DB_DATABASE', 'forge'),
             'username' => env('DB_USERNAME', 'forge'),
@@ -77,6 +81,7 @@ return [
         'pgsql' => [
             'driver' => 'pgsql',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'host' => env('DB_HOST', '127.0.0.1'),
 =======
 <<<<<<< HEAD
@@ -85,6 +90,9 @@ return [
             'host' => env('DB_HOST', 'localhost'),
 >>>>>>> a8c56e09facff8c567d2a575a6751f6e750a52ea
 >>>>>>> 1f07036a857f5e6f8719afd517355e7bef1e781e
+=======
+            'host' => env('DB_HOST', '127.0.0.1'),
+>>>>>>> bd64c36f1600dca200cbffa95d664555d61f4ab7
             'port' => env('DB_PORT', '5432'),
             'database' => env('DB_DATABASE', 'forge'),
             'username' => env('DB_USERNAME', 'forge'),
@@ -127,6 +135,7 @@ return [
 
         'default' => [
 <<<<<<< HEAD
+<<<<<<< HEAD
             'host' => env('REDIS_HOST', '127.0.0.1'),
 =======
 <<<<<<< HEAD
@@ -136,6 +145,10 @@ return [
 >>>>>>> a8c56e09facff8c567d2a575a6751f6e750a52ea
 >>>>>>> 1f07036a857f5e6f8719afd517355e7bef1e781e
             'password' => env('REDIS_PASSWORD', null),
+=======
+            'host' => env('REDIS_HOST', '127.0.0.1'),
+            'password' => env('REDIS_PASSWORD', ''),
+>>>>>>> bd64c36f1600dca200cbffa95d664555d61f4ab7
             'port' => env('REDIS_PORT', 6379),
             'database' => 0,
         ],

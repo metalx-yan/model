@@ -12,6 +12,10 @@
 
     <!-- Styles -->
     <link href="/css/app.css" rel="stylesheet">
+<<<<<<< HEAD
+=======
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+>>>>>>> bd64c36f1600dca200cbffa95d664555d61f4ab7
 
     <!-- Scripts -->
     <script>
@@ -24,6 +28,10 @@
     <div id="app">
         <nav class="navbar navbar-default navbar-static-top">
             <div class="container">
+<<<<<<< HEAD
+=======
+<ul class="nav navbar-nav">
+>>>>>>> bd64c36f1600dca200cbffa95d664555d61f4ab7
                 <div class="navbar-header">
 
                     <!-- Collapsed Hamburger -->
@@ -33,12 +41,22 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
+<<<<<<< HEAD
 
+=======
+>>>>>>> bd64c36f1600dca200cbffa95d664555d61f4ab7
                     <!-- Branding Image -->
                     <a class="navbar-brand" href="{{ url('/') }}">
                         {{ config('app.name', 'Laravel') }}
                     </a>
                 </div>
+<<<<<<< HEAD
+=======
+                    @if (Auth::check())
+                    <li><a href="{{ url('/home') }}">Dashboard</a></li>
+                    @endif
+                    </ul>
+>>>>>>> bd64c36f1600dca200cbffa95d664555d61f4ab7
 
                 <div class="collapse navbar-collapse" id="app-navbar-collapse">
                     <!-- Left Side Of Navbar -->
@@ -48,16 +66,27 @@
 
                     <!-- Right Side Of Navbar -->
                     <ul class="nav navbar-nav navbar-right">
+<<<<<<< HEAD
                         <!-- Authentication Links -->
                         @if (Auth::guest())
                             <li><a href="{{ url('/login') }}">Login</a></li>
                             <li><a href="{{ url('/register') }}">Register</a></li>
                         @else
+=======
+                               @if (Auth::guest())
+                              <li><a href="{{url('/login') }}">Login</a></li>
+                             <li><a href="{{url('/register') }}">Daftar</a></li>
+                             @else
+>>>>>>> bd64c36f1600dca200cbffa95d664555d61f4ab7
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
                                     {{ Auth::user()->name }} <span class="caret"></span>
                                 </a>
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> bd64c36f1600dca200cbffa95d664555d61f4ab7
                                 <ul class="dropdown-menu" role="menu">
                                     <li>
                                         <a href="{{ url('/logout') }}"
@@ -77,15 +106,25 @@
                 </div>
             </div>
         </nav>
+<<<<<<< HEAD
 <<<<<<< c64f2eb84f3484b8bb20b3acbf08110591d27f2a
 
 =======
         @include('flash::message')
 >>>>>>> "Registrasi dua tahap, view seadanya"
+=======
+
+>>>>>>> bd64c36f1600dca200cbffa95d664555d61f4ab7
         @yield('content')
     </div>
 
     <!-- Scripts -->
+<<<<<<< HEAD
     <script src="/js/app.js"></script>
+=======
+    <script src="/js/jquery-3.1.1.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    @yield('scripts')
+>>>>>>> bd64c36f1600dca200cbffa95d664555d61f4ab7
 </body>
 </html>

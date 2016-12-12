@@ -8,7 +8,11 @@
                 <div class="panel-heading">Dashboard</div>
 
                 <div class="panel-body">
+<<<<<<< HEAD
                     You are logged in!
+=======
+                    Anda Berhasil Login!
+>>>>>>> bd64c36f1600dca200cbffa95d664555d61f4ab7
                 </div>
             </div>
         </div>

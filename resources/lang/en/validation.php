@@ -17,6 +17,7 @@ return [
     'active_url'           => 'The :attribute is not a valid URL.',
     'after'                => 'The :attribute must be a date after :date.',
 <<<<<<< HEAD
+<<<<<<< HEAD
     'after_or_equal'       => 'The :attribute must be a date after or equal to :date.',
 =======
 <<<<<<< HEAD
@@ -24,12 +25,16 @@ return [
 =======
 >>>>>>> a8c56e09facff8c567d2a575a6751f6e750a52ea
 >>>>>>> 1f07036a857f5e6f8719afd517355e7bef1e781e
+=======
+    'after_or_equal'       => 'The :attribute must be a date after or equal to :date.',
+>>>>>>> bd64c36f1600dca200cbffa95d664555d61f4ab7
     'alpha'                => 'The :attribute may only contain letters.',
     'alpha_dash'           => 'The :attribute may only contain letters, numbers, and dashes.',
     'alpha_num'            => 'The :attribute may only contain letters and numbers.',
     'array'                => 'The :attribute must be an array.',
     'before'               => 'The :attribute must be a date before :date.',
 <<<<<<< HEAD
+<<<<<<< HEAD
     'before_or_equal'      => 'The :attribute must be a date before or equal to :date.',
 =======
 <<<<<<< HEAD
@@ -37,6 +42,9 @@ return [
 =======
 >>>>>>> a8c56e09facff8c567d2a575a6751f6e750a52ea
 >>>>>>> 1f07036a857f5e6f8719afd517355e7bef1e781e
+=======
+    'before_or_equal'      => 'The :attribute must be a date before or equal to :date.',
+>>>>>>> bd64c36f1600dca200cbffa95d664555d61f4ab7
     'between'              => [
         'numeric' => 'The :attribute must be between :min and :max.',
         'file'    => 'The :attribute must be between :min and :max kilobytes.',

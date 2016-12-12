@@ -4,9 +4,13 @@ namespace App\Http\Controllers\Auth;
 
 use App\User;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use App\Registrasi;
 >>>>>>> 1f07036a857f5e6f8719afd517355e7bef1e781e
+=======
+use App\Role;
+>>>>>>> bd64c36f1600dca200cbffa95d664555d61f4ab7
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
@@ -28,11 +32,15 @@ class RegisterController extends Controller
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bd64c36f1600dca200cbffa95d664555d61f4ab7
      * Where to redirect users after registration.
      *
      * @var string
      */
     protected $redirectTo = '/home';
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
      * Where to redirect users after registration.
@@ -44,6 +52,8 @@ class RegisterController extends Controller
      */
     protected $redirectTo = '/dashboard';
 >>>>>>> 1f07036a857f5e6f8719afd517355e7bef1e781e
+=======
+>>>>>>> bd64c36f1600dca200cbffa95d664555d61f4ab7
 
     /**
      * Create a new controller instance.
@@ -66,9 +76,13 @@ class RegisterController extends Controller
         return Validator::make($data, [
             'name' => 'required|max:255',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'email' => 'required|email|max:255|unique:users',
 =======
 >>>>>>> 1f07036a857f5e6f8719afd517355e7bef1e781e
+=======
+            'email' => 'required|email|max:255|unique:users',
+>>>>>>> bd64c36f1600dca200cbffa95d664555d61f4ab7
             'password' => 'required|min:6|confirmed',
         ]);
     }
@@ -82,11 +96,15 @@ class RegisterController extends Controller
     protected function create(array $data)
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bd64c36f1600dca200cbffa95d664555d61f4ab7
         return User::create([
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => bcrypt($data['password']),
         ]);
+<<<<<<< HEAD
 =======
 
         $token = Registrasi::where('token', '=', $data['token'])->first();
@@ -98,5 +116,11 @@ class RegisterController extends Controller
                 'password' => bcrypt($data['password']),
             ]);
 >>>>>>> 1f07036a857f5e6f8719afd517355e7bef1e781e
+=======
+
+        $memberRole = Role::where('name', 'member')->first();
+        $user->attachRole($memberRole);
+        return $user;
+>>>>>>> bd64c36f1600dca200cbffa95d664555d61f4ab7
     }
 }
