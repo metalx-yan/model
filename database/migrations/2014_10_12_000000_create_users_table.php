@@ -18,10 +18,19 @@ class CreateUsersTable extends Migration
             $table->string('name');
             $table->string('email')->unique();
             $table->string('password');
+<<<<<<< HEAD
             $table->integer('roles_id')->unsigned();
             $table->rememberToken();
             $table->timestamps();
         });
+=======
+            $table->rememberToken();
+            $table->timestamps();
+        });
+
+         
+
+>>>>>>> fca5c238a93b026788a29208bad70ef3df7ef5ee
     }
 
     /**
@@ -31,6 +40,11 @@ class CreateUsersTable extends Migration
      */
     public function down()
     {
+<<<<<<< HEAD
+=======
+        
+
+>>>>>>> fca5c238a93b026788a29208bad70ef3df7ef5ee
         Schema::dropIfExists('users');
     }
 }

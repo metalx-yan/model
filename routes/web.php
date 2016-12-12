@@ -14,3 +14,14 @@
 Route::get('/', function () {
     return view('welcome');
 });
+<<<<<<< HEAD
+=======
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');
+>>>>>>> fca5c238a93b026788a29208bad70ef3df7ef5ee
